@@ -25,3 +25,5 @@ Open another command line and run the following command to join with as many cli
     telnet localhost 3112
     
 You can quit from a client by typing quit.
+
+![Screenshot of Chat Server](Pictures/Screenshot.png)
