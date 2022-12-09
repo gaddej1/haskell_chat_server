@@ -12,8 +12,8 @@ Run the following command in the command line:
 
     git clone git@github.com:gaddej1/haskell_chat_server.git
 
-Install Haskell by following these instructions.
-Install Cabal by following these instructions.
+Install Haskell by following these [instructions](https://www.haskell.org/ghcup/).
+Install Cabal by following these [instructions](https://www.haskell.org/cabal/).
 
 ## Launching the Chat Server
 Run the following command in the command line:
