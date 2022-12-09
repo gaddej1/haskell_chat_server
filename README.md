@@ -28,7 +28,7 @@ You can quit from a client by typing quit.
 
 ## About How I Implemented the Chat Server
 I first created a socket and binded it to TCP port 3112. Essentially, this creates a place that listens for clients that are looking to connect to the chat server. 
-The socket accepts connections and then runs the connection in a separate thread of execution. The socket will continue to do accept connections and run them in different threads as long as the server is running. Because the connections are running in separate threads of execution, the connections are running concurrently or at the same time.
+The socket accepts connections and then runs the connection in a separate thread of execution. The socket will continue to accept connections and run them in different threads as long as the server is running. Because the connections are running in separate threads of execution, the connections are running concurrently or at the same time.
 Once the server accepts the connection from a client looking to join the chat server, the program will ask the client for their name. It will then send a message to all the other clients that that client has joined the chat. It will also welcome the client to the chat.
 
 After that, the client can send and receive messages to and from the other clients. This is done by communicating with other threads of execution. Essentially, when a client sends a message, the program broadcasts it to the other threads of execution, where that thread will print the message out to the client. This is done continually, so each thread will always be listening for messages that are being sent to their client connection.
