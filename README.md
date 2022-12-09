@@ -1,6 +1,6 @@
 # Haskell Chat Server
 
-This repository contains the code for my Honors Project for CSC 345: Programming Languages.
+This repository contains the code for my Honors Project for CSC 435: Programming Languages.
 
 The code can be found in the [Main.hs](app/Main.hs) file and the dependencies used in the project can be found in [ChatServer.cabal](ChatServer.cabal#L38-L42). 
 
